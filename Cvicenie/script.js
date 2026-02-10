@@ -1,4 +1,4 @@
-script.js:
+
  
 const chlieb = 1.50;
 const mlieko = 0.90;
