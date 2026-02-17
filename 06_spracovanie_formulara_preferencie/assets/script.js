@@ -12,11 +12,13 @@ function handleSubmit(event){
     const emailInput = document.getElementById('email');
     const email = emailInput.value;
 
-    const poleCheckboxov = document.querySelectorAll('input [type="checkbox]"]');
+    const vsetkyCheckboxy = document.querySelectorAll('input [type="checkbox]"]');
 
     const poleCheckboxov = Array.from(vsetkyCheckboxy); //prevod nodelistu na pole (aby sme ho mohli filtrovat)
 
-    console.log(meno)
+    const zaskrtnute = poleCheckboxov.map(chechbox => checkbox.value)
+
+    console.log(poleCheckboxov)
 };
 
 
