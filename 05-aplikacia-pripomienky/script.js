@@ -13,5 +13,29 @@ addButton.addEventListener('click',() => {
     }
     
 
+    console.log(taskText)
+
+
     let newLi = document.createElement('li');
+    newLi.textContent = taskText;
+    console.log(newLi);
+
+    let newInput = document.createElement('input');
+    newInput.type = "checkbox"; /*zmenil som typ inputu na checkbox*/
+    
+
+
+    let newSpan = document.createElement('span');
+    
+
+
+    let newButton = document.createElement('button');
+
+    newLi.appendChild(newInput);
+    newLi.appendChild(newSpan);
+    newLi.appendChild(newButton);
+
+
+
+    document.getElementById('taskList').appendChild(newLi);
 });
