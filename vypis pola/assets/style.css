@@ -1,0 +1,8 @@
+body {
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    -ms-flex-item-align: center;
+}
