@@ -2,11 +2,6 @@ let pocet = 0;
 
 
 
-
-
-
-
-
 function pozdrav (){
 
     let vysledok = document.getElementById('vysledok1'); //vytvoril som premennu, ktoru som zobral z html
@@ -27,8 +22,6 @@ function zmenaFarbuPozadia (){
 }
 
 
-
-
 function zvysPocitadlo(){
     pocet++; //zvys o jedna
     document.getElementById('pocitadlo').textContent = pocet; //napln ho aktualnou hodnotou
@@ -45,8 +38,6 @@ function resetujPocitadlo(){
 }
 
 
-
-
 function zvacsFont(){
    const vysledokText = document.getElementById("vysledokText");
    vysledokText.style.fontSize = '30px';
@@ -59,8 +50,6 @@ function normalnyFont(){
     const vysledokText = document.getElementById("vysledokText");
     vysledokText.style.fontSize = '1.1em';
 }
-
-
 
 
 function nahodneCislo(){
@@ -77,9 +66,6 @@ function zmenaFarbyTextu(){
 
     vysledokNahodne.style.color = textFarba[nahodnaFarbaTextu];
 }
-
-
-
 
 
 
